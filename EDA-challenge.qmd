@@ -1,0 +1,17 @@
+---
+title: "EDA-challenge"
+author: "Erika Carlson"
+date: 2024-02-07
+format: html
+---
+
+# Explore and Wrangle Data
+Load the “data-wrangling.csv” dataset from [**this URL](https://raw.githubusercontent.com/difiore/ada-2024-datasets/main/data-wrangling.csv) as a tabular data structure named **d** and look at the variables it contains
+
+
+```{r}
+library(tidyverse)
+f <- "https://raw.githubusercontent.com/difiore/ada-2024-datasets/main/data-wrangling.csv"
+d <- read_csv(f, col_names = TRUE)
+names(d)
+```
