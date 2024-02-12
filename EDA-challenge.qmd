@@ -2,7 +2,11 @@
 title: "EDA-challenge"
 author: "Erika Carlson"
 date: 2024-02-07
-format: html
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
 editor_options: 
   chunk_output_type: console
 ---
